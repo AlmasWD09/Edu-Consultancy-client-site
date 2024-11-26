@@ -14,7 +14,7 @@ const PopularSubject = () => {
     return (
         <section className="container mx-auto px-4">
             <h1 className="font-semibold text-4xl text-center mb-8">
-                Most popular Subjects for building your Future
+                Most popular <span className='text-primary'>Subjects</span> for building your Future
             </h1>
 
             <Swiper
